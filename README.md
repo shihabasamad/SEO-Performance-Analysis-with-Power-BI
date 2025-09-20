@@ -11,27 +11,27 @@ This project analyzes SEO crawl data (from Screaming Frog SEO Audit Application)
 
 ## Report Pages
 
-### Macro Data
+### 1. Macro Data
 <img width="1906" height="1062" alt="Macro Page" src="https://github.com/user-attachments/assets/1b2c132c-ef7f-490c-92a4-579ffa3bd4d2" />
 
 Macro Data
 
-### Web Performance & Metadata
+### 2. Web Performance & Metadata
 <img width="1915" height="1076" alt="2nd page" src="https://github.com/user-attachments/assets/6df74db6-eec7-4c72-9dce-8e118437db46" />
 
 Web Performance
 
-### Canonicals & No-Index
+### 3. Canonicals & No-Index
 <img width="1917" height="1064" alt="3rd page" src="https://github.com/user-attachments/assets/7a291e53-c89e-474d-9148-925f3a446f22" />
 
 Canonicals & No-Index
 
-### Crawl Budget
+### 4. Crawl Budget
 <img width="1900" height="1071" alt="4th page" src="https://github.com/user-attachments/assets/002fe930-5412-4b04-a232-907b646d3e66" />
 
 Crawl Budget
 
-### Inlink Analysis
+### 5. Inlink Analysis
 <img width="1905" height="1082" alt="5th page" src="https://github.com/user-attachments/assets/83229ea2-a2b3-4f15-8dbd-3468e30aaa32" />
 
 Inlinks
