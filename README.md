@@ -1,14 +1,12 @@
 # SEO Audit & Web Performance Dashboard (Power BI)
 
-This project analyzes SEO crawl data (from Screaming Frog) to find **indexability**, **crawl budget waste**, **content quality**, **canonicalization issues** and **internal linking**.  
-Built end-to-end in **Power BI** with one flat table and calculated DAX columns/measures.
+This project analyzes SEO crawl data (from Screaming Frog SEO Audit Application) to find **indexability**, **crawl budget waste**, **content quality**, **canonicalization issues** and **internal linking**. And it's built in **Power BI** with one flat table and calculated DAX columns/measures.
 
 
 
 ## Interactive Report
-[View Interactive Dashboard](#)  
-*(replace `#` with your Power BI Service public link once published)*
-
+[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzE1NjAwN2ItODI0My00ZWIxLTgyMTItYzUzOTg2OTU1N2IxIiwidCI6IjU0ZDcxMmI0LWQxZGEtNDRjOC1hM2IzLTlhMzVmZGI3NTllNCIsImMiOjh9
+) 
 
 
 ## Report Pages
