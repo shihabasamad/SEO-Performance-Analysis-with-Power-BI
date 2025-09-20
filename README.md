@@ -1,61 +1,56 @@
-# Marketing Campaign Performance Dashboard for AI Assistant Targeting E-Commerce Businesses
+# SEO Audit & Web Performance Dashboard (Power BI)
 
-This project focuses on building a comprehensive Power BI dashboard to monitor and analyze marketing campaigns for an AI assistant targeting small e-commerce businesses. The dashboard provides actionable insights into campaign performance, audience engagement and ROI.
+This project analyzes SEO crawl data (from Screaming Frog) to find **indexability**, **crawl budget waste**, **content quality**, **canonicalization issues** and **internal linking**.  
+Built end-to-end in **Power BI** with one flat table and calculated DAX columns/measures.
 
-## Project Overview
+---
 
-**Goal:**
-- Design a dynamic, interactive dashboard that highlights key performance metrics such as impressions, clicks, conversions and ROI.
-- Simulate realistic marketing scenarios by generating synthetic datasets.
-- Identify regional and seasonal trends, audience segmentation, and channel performance to improve marketing strategies.
+## Interactive Report
+[View Interactive Dashboard](#)  
+*(replace `#` with your Power BI Service public link once published)*
 
-## Data Description
+---
 
-**Datasets:**
+## Report Pages
 
-- **Campaign Data:**
-  - Over 1,000 campaign entries.
-  - Attributes include:
-    - Campaign ID
-    - Channel (Google, Social, Email)
-    - Budget, Spend, Impressions, Clicks, Conversions
-    - Start Date and End Date
-  - Includes seasonal trends and anomalies to mimic real-world scenarios.
+### Macro Data
+<img width="1906" height="1062" alt="Macro Page" src="https://github.com/user-attachments/assets/1b2c132c-ef7f-490c-92a4-579ffa3bd4d2" />
 
-- **Customer Data:**
-  - Over 10,000 customer records.
-  - Attributes include:
-    - Customer ID
-    - Company Name, Location, Business Size, Industry Type
-    - Bounce Rate, Time Spent, Annual Revenue, Website Visits
-  - Features audience segmentation by demographics, business size and industry type.
+Macro Data
 
-## Progress
+### Web Performance & Metadata
+<img width="1915" height="1076" alt="2nd page" src="https://github.com/user-attachments/assets/6df74db6-eec7-4c72-9dce-8e118437db46" />
 
-**Completed:**
-- Generated realistic synthetic datasets using Python's Faker library.
-- Cleaned and validated data using Power BI Power Query to ensure readiness for analysis.
+Web Performance
 
-**Ongoing:**
-- Developing an executive Power BI dashboard to visualize:
-  - Campaign performance
-  - ROI metrics
-  - Audience segmentation
-  - Regional trends
+### Canonicals & No-Index
+<img width="1917" height="1064" alt="3rd page" src="https://github.com/user-attachments/assets/7a291e53-c89e-474d-9148-925f3a446f22" />
 
-**Next Steps:**
-- Finalize dashboard visualizations with interactive geospatial maps and detailed KPI metrics.
-- Create an executive summary highlighting insights and recommendations for stakeholders.
+Canonicals & No-Index
 
-## Tools and Technologies
+### Crawl Budget
+<img width="1900" height="1071" alt="4th page" src="https://github.com/user-attachments/assets/002fe930-5412-4b04-a232-907b646d3e66" />
 
-- **Data Generation:** Python (Faker, Pandas, NumPy)
-- **Data Cleaning and Preparation:** Power BI Power Query
-- **Visualization:** Power BI Dashboard
-- **Project Management:** GitHub for version control and documentation
+Crawl Budget
 
-## Future Enhancements
+### Inlink Analysis
+<img width="1905" height="1082" alt="5th page" src="https://github.com/user-attachments/assets/83229ea2-a2b3-4f15-8dbd-3468e30aaa32" />
 
-- Incorporate real-world datasets for more robust analysis.
-- Add predictive analytics to forecast campaign outcomes.
-- Integrate the dashboard with live data sources for real-time monitoring.
+Inlinks
+
+---
+
+## Features
+- Cleaning in Power Query (null/empty rows removed).
+- All grouping & clustering done with **DAX calculated columns**.
+- Filters: URL Type, Content Type, Thin Content Cluster, Inlinks Cluster, Crawl Depth etc.
+
+---
+
+## Key Insights
+- 78% of URLs were **indexable**, 22% wasted crawl budget.  
+- ~20% of pages had **thin content** (≤300 words).  
+- Canonical & NoIndex pages led to **lost links**.  
+- Crawl depth analysis showed most useful pages were shallow (depth ≤2). 
+
+
