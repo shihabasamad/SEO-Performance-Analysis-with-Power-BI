@@ -3,13 +3,13 @@
 This project analyzes SEO crawl data (from Screaming Frog) to find **indexability**, **crawl budget waste**, **content quality**, **canonicalization issues** and **internal linking**.  
 Built end-to-end in **Power BI** with one flat table and calculated DAX columns/measures.
 
----
+
 
 ## Interactive Report
 [View Interactive Dashboard](#)  
 *(replace `#` with your Power BI Service public link once published)*
 
----
+
 
 ## Report Pages
 
@@ -38,19 +38,19 @@ Crawl Budget
 
 Inlinks
 
----
+
 
 ## Features
 - Cleaning in Power Query (null/empty rows removed).
 - All grouping & clustering done with **DAX calculated columns**.
 - Filters: URL Type, Content Type, Thin Content Cluster, Inlinks Cluster, Crawl Depth etc.
 
----
+
 
 ## Key Insights
-- 78% of URLs were **indexable**, 22% wasted crawl budget.  
-- ~20% of pages had **thin content** (≤300 words).  
-- Canonical & NoIndex pages led to **lost links**.  
-- Crawl depth analysis showed most useful pages were shallow (depth ≤2). 
+- 78% of URLs indexable and 21% wasted due to redirects, blocked or canonicalised pages.
+- Thin content detected where ~1 in 5 pages with ≤300 words and missing or weak metadata.
+- Crawl performance shows gaps in some pages which load >2s, affecting SEO and UX.
+- Most important pages at shallow depth (≤2), many deep pages (4+) and weakly linked URLs limit visibility indicates site structure imbalance. 
 
 
